@@ -1,0 +1,173 @@
+/* Media Queries */
+
+@media (max-width: 1000px) {
+  #coverImage-textBody {
+    font-size: 1rem !important;
+  }
+  .form-fieldWrapper {
+    width: 80vw !important;
+  }
+}
+
+@media (max-width: 710px) {
+  body {
+    font-size: 0.8rem;
+  }
+  .form-fieldWrapper {
+    width: 100vw !important;
+  }
+}
+
+@media (max-width: 570px) {
+  body {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .menu-item {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  #coverImage-textBox {
+    margin-top: 18vh !important;
+  }
+  .form-label {
+    font-size: 0.8rem !important;
+  }
+  #form-button {
+    margin-top: 1vh !important;
+  }
+}
+
+/* -- Specific Style -- */
+
+/* Menu Style */
+
+#menu {
+  width: 90%;
+  padding: 0.7rem 0px;
+  background-color: black;
+}
+
+.menu-item,
+menu-item:visited {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  margin-left: 1vw;
+}
+
+/* Cover Image Style */
+
+#coverImage {
+  margin-top: 0.05rem;
+  width: 90%;
+  height: 45vh;
+  background-image: url("../../assets/Asset1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#coverImage-textBox {
+  position: absolute;
+  margin-left: 5vw;
+  margin-top: 29vh;
+  width: 68vw;
+}
+
+#coverImage-textTitleWrapper {
+  width: 70%;
+  background-color: black;
+  padding-left: 1vw;
+}
+
+#coverImage-textTitle {
+  margin: 0 !important;
+  color: white;
+  text-align: left !important;
+}
+
+#coverImage-textBodyWrapper {
+  background-color: white;
+  padding: 1rem;
+}
+
+#coverImage-textBody {
+  font-size: 1.5rem;
+}
+
+/* Form Style */
+
+#form-wrapper {
+  position: relative;
+  width: 100%;
+  margin-top: 5vh;
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 35vh;
+}
+
+#form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-fieldWrapper {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: 1vh 0px;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  width: 10%;
+  text-align: end;
+  white-space: nowrap;
+}
+
+.form-input {
+  width: 60vw;
+  height: 2.5vh;
+  border: none;
+  font-size: 1.2rem;
+  padding-left: 1vw;
+}
+
+#form-description {
+  height: 8vh;
+}
+
+#form-button {
+  background-color: #3eaaf6;
+  color: white;
+  border: none;
+  padding: 5px 3vw;
+  margin-top: 3vh;
+}
+
+/* Footer Style */
+
+#footer {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  height: 4.5vh;
+  display: flex;
+  align-items: center;
+  color: rgb(167, 167, 167);
+}
+
+#footer-text {
+  margin-left: 1vw;
+  font-size: 0.8rem;
+}
